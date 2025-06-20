@@ -14,6 +14,7 @@ Variables:
 - lut: `Image`
 - chroma: `Float`
 - luma: `Float`
+
 Methods:
 - setChroma(chroma): Sets the chroma to the variable AND the shader
 - setLuma(luma): Ditto, but applies to the luma
