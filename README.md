@@ -1,5 +1,7 @@
 # TPRS-LUT for LÖVE
 A port of Marty McFly's LUT shader from Reshade to LÖVE
+
+Your LUT ***must*** be a PNG and have only one row (because `.cube` support isn't implemented)
 ## How to use
 ### lut:init(path:String, size:Integer, tiles:Integer, ?chroma:Float = 1, ?luma:Float = 1)
 - path: Where is your LUT located?
